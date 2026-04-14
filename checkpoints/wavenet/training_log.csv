@@ -1,0 +1,1 @@
+epoch,phase,loss,reg_loss,cls_loss,MAE_mean,RMSE_mean,R2_mean,cat_acc,lr,elapsed_s

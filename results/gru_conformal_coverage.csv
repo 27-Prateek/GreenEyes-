@@ -1,0 +1,4 @@
+model,horizon,target_coverage,empirical_coverage,median_width
+gru,t+1h,90%,94.91%,44.881
+gru,t+24h,90%,94.00%,131.09
+gru,t+72h,90%,93.91%,201.425

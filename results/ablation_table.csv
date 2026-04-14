@@ -1,0 +1,17 @@
+model,horizon,MAE,RMSE,R2,Within_10pct
+greeneyes,t+1h,12.38,18.833,0.9308,55.6
+greeneyes,t+24h,24.0716,36.1336,0.7424,31.87
+greeneyes,t+72h,35.6672,53.3395,0.4331,23.67
+greeneyes,classification,-,-,0.7508,74.62
+lstm,t+1h,9.8574,16.6329,0.946,68.9
+lstm,t+24h,23.1881,35.4194,0.7525,34.91
+lstm,t+72h,36.6419,53.4154,0.4315,22.5
+lstm,classification,-,-,0.799,79.56
+gru,t+1h,8.2439,26.7229,0.8606,78.23
+gru,t+24h,21.3811,40.2898,0.6797,41.07
+gru,t+72h,32.9574,53.6886,0.4257,25.77
+gru,classification,-,-,0.8233,81.93
+transformer,t+1h,25.8798,41.445,0.6648,29.41
+transformer,t+24h,31.1455,47.273,0.5591,23.49
+transformer,t+72h,36.6343,53.1531,0.437,18.65
+transformer,classification,-,-,0.6169,57.63

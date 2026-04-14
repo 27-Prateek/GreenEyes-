@@ -1,0 +1,4 @@
+model,horizon,target_coverage,empirical_coverage,median_width
+greeneyes,t+1h,90%,93.24%,66.649
+greeneyes,t+24h,90%,93.66%,129.686
+greeneyes,t+72h,90%,92.81%,200.921

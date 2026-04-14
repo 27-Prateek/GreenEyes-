@@ -1,0 +1,31 @@
+# AQI-Sense India — Research Requirements
+# Install: pip install -r requirements.txt
+
+# Core
+numpy>=1.24,<2.0
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+joblib>=1.3
+pyarrow>=14.0          # parquet I/O
+
+# Deep learning
+torch>=2.1             # CPU is fine; for GPU: pip install torch --index-url https://download.pytorch.org/whl/cu121
+
+# Visualisation
+matplotlib>=3.7
+seaborn>=0.13
+
+# Hyperparameter search
+optuna>=3.4
+
+# Optional: SHAP (for richer feature attribution)
+# shap>=0.44
+
+# Optional: MLflow experiment tracking
+# mlflow>=2.8
+
+# Development / notebooks
+jupyter>=1.0
+ipykernel>=6.0
+tqdm>=4.66
