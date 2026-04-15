@@ -1,0 +1,19 @@
+digraph {
+	rankdir=LR size="12,3"
+	X [label="Input
+X" fillcolor=lightgray style=filled]
+	P [label=Projection fillcolor=lightblue style=filled]
+	W [label=WaveNet fillcolor=lightyellow style=filled]
+	G [label=GAT fillcolor=lightgreen style=filled]
+	B [label=BiLSTM fillcolor=orange style=filled]
+	T [label="Temporal
+Attention" fillcolor=pink style=filled]
+	H [label="Output Heads
+(ŷ, ẑ)" fillcolor=lightcoral style=filled]
+	X -> P
+	P -> W
+	W -> G
+	G -> B
+	B -> T
+	T -> H
+}
